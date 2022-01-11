@@ -2,120 +2,190 @@
 
 url = "https://gemstone-swagger-bucket.s3.amazonaws.com/performance-test/1k.json?s3&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://gemstone-swagger-bucket.s3.amazonaws.com/performance-test/100k.json?s3&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://gemstone-swagger-bucket.s3.amazonaws.com/performance-test/1m.json?s3&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://gemstone-swagger-bucket.s3.amazonaws.com/performance-testSSE/1k.json?s3-encrypted&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://gemstone-swagger-bucket.s3.amazonaws.com/performance-testSSE/100k.json?s3-encrypted&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://gemstone-swagger-bucket.s3.amazonaws.com/performance-testSSE/1m.json?s3-encrypted&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
+
 url = "https://d6mxbib8p5eoc.cloudfront.net/performance-test/1k.json?cloudfront&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://d6mxbib8p5eoc.cloudfront.net/performance-test/100k.json?cloudfront&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://d6mxbib8p5eoc.cloudfront.net/performance-test/1m.json?cloudfront&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
+-o "file.txt"
+-s
+
+url = "https://d6mxbib8p5eoc.cloudfront.net/performance-testCF/1k.json?cloudfront-authorizer&repeat=[1-100]"
+-w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
+-o "file.txt"
+-s
+
+url = "https://d6mxbib8p5eoc.cloudfront.net/performance-testCF/100k.json?cloudfront-authorizer&repeat=[1-100]"
+-w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
+-o "file.txt"
+-s
+
+url = "https://d6mxbib8p5eoc.cloudfront.net/performance-testCF/1m.json?cloudfront-authorizer&repeat=[1-100]"
+-w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://ddymvusslytn3.cloudfront.net/performance-test/1k.json?cloudfront-waf-OAI&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://ddymvusslytn3.cloudfront.net/performance-test/100k.json?cloudfront-waf-OAI&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://ddymvusslytn3.cloudfront.net/performance-test/1m.json?cloudfront-waf-OAI&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test/performance-test/1k.json?apigateway&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test/performance-test/100k.json?apigateway&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test/performance-test/1m.json?apigateway&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-waf/performance-test/1k.json?apigateway-waf&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-waf/performance-test/100k.json?apigateway-waf&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-waf/performance-test/1m.json?apigateway-waf&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-cache/performance-test/1k.json?apigateway-cache&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-cache/performance-test/100k.json?apigateway-cache&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-cache/performance-test/1m.json?apigateway-cache&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-authorizer/performance-test/1k.json?apigateway-authorizer&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-authorizer/performance-test/100k.json?apigateway-authorizer&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
 
 url = "https://506xmpl0z7.execute-api.us-east-1.amazonaws.com/test-authorizer/performance-test/1m.json?apigateway-authorizer&repeat=[1-100]"
 -w "@curl-format.txt"
+-H "Content-Type: application/json"
+-H "Accept-Encoding: gzip"
 -o "file.txt"
 -s
