@@ -1,0 +1,35 @@
+{
+    "_id": "61d3856431b075a23a98404b",
+    "index": 0,
+    "guid": "25ee2923-9ea2-45f8-a2d2-16ddb4cf277b",
+    "isActive": true,
+    "balance": "$1,092.25",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": "Sanford Munoz",
+    "gender": "male",
+    "company": "EARTHMARK",
+    "email": "sanfordmunoz@earthmark.com",
+    "phone": "+1 (994) 513-2489",
+    "address": "123 Canarsie Road, Chesterfield, Mississippi, 8754",
+    "about": " ullamco duis. Elit aliqua sit irure nisi ut ullamco dolore aute ex in magna voluptate elit eiusmod. Reprehenderit eiusmod non eiusmod cillum ut qui nisi.\r\n",
+    "registered": "2017-01-03T08:26:25 +10:00",
+    "latitude": 60.932444,
+    "longitude": 5.270656,
+    "tags": [
+    "officia",
+    "cillum"
+    ],
+    "friends": [
+    {
+        "id": 0,
+        "name": "Maynard Mays"
+    },
+    {
+        "id": 1,
+        "name": "Roth Ray"
+    }
+    ],
+    "favoriteFruit": "banana"
+}

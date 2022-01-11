@@ -1,0 +1,16 @@
+{
+    "name": "aws_azure-comparison_creating-dataset",
+    "version": "0.1",
+    "description": "Tooling to check the performance of AWS and Azure technologies for common payloads used in Gemstone.",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --verbose false",
+      "publish": "npx npm-pack-zip --destination ..",
+      "build": "npm version patch && npm install --only=prod && npm prune --production && npm run publish"
+    },
+    "author": {
+      "name": "Angus Thompson",
+      "email": "gus@glenngus.com"
+    },
+    "license": "MIT"
+  }
